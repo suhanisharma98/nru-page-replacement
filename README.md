@@ -43,7 +43,9 @@ Here’s a preview of the NRU Page Replacement Simulator:
 
 ![NRU Demo](https://github.com/user-attachments/assets/33cb3424-8e83-4c64-9d7d-78a2ec72ca28)
 
-![Simulation Output](pbl/screenshot2.jpg)
+[Simulation Output](https://github.com/user-attachments/assets/bcb395cd-bf4a-42c1-9a1d-d648807cd2fd)
+
+
 
 
 ## 📌 Author
