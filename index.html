@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NRU Page Replacement</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🔄 NRU Page Replacement Simulator</h1>
+
+    <div class="form">
+      <label>🧠 Number of Page Frames</label>
+      <input type="number" id="frames" value="3" min="1"/>
+
+      <label>🧾 Reference String (space-separated)</label>
+      <input type="text" id="refs" value="1 2 3 2 1 4 5 2 1 2 3 4 5"/>
+
+      <button onclick="simulateNRU()">▶ Run Simulation</button>
+    </div>
+
+    <div id="result" class="result-box"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
